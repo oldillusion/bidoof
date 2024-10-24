@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Title</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                gunmetal: '#22333b',
+                walnut: '#5e503f',
+                smoke: '#f2f4f3',
+                beaver: '#a9927d'
+              }
+            }
+          }
+        }
+      </script>
+</head>
+
+<body class="bg-beaver">
+    <div class="container h-dvh flex flex-col p-2 gap-2">
+        <header class="bg-smoke p-5 border border-2 border-smoke rounded-lg">
+            <h1 class="text-3xl">
+                Product Title
+            </h1>
+        </header>
+        <main class="flex gap-2 h-screen">
+            <section class="bg-smoke p-5 border border-2 border-smoke rounded-lg w-64">
+
+            </section>
+            <section class="bg-smoke p-5 border border-2 border-smoke rounded-lg w-full">
+
+            </section>
+        </main>
+    </div>
+</body>
+
+</html>
